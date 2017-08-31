@@ -53,8 +53,8 @@ export default new Router({
       name: "city",
       component: City
     }, {
-      path: "/Bigcity",
-      name: "Bigcity",
+      path: "/Smallcity",
+      name: "Smallcity",
       component: BigCity
     }, {
       path: "/weekend/:id/:title",
