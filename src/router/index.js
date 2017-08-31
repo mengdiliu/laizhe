@@ -53,14 +53,6 @@ export default new Router({
       name: "city",
       component: City
     }, {
-      path: "/Smallcity",
-      name: "Smallcity",
-      component: BigCity
-    },{
-      path: "/Smallcity",
-      name: "Smallcity",
-      component: SmallCity
-    }, {
       path: "/weekend/:id/:title",
       name: "weekend",
       component: Weekend
