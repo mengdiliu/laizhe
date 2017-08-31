@@ -56,6 +56,10 @@ export default new Router({
       path: "/Bigcity",
       name: "Bigcity",
       component: BigCity
+    },{
+      path: "/Smallcity",
+      name: "Smallcity",
+      component: SmallCity
     }, {
       path: "/weekend/:id/:title",
       name: "weekend",
